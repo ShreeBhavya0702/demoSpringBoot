@@ -4,7 +4,6 @@ import com.exampleJava.demoSpringBoot.Model.Teacher;
 import com.exampleJava.demoSpringBoot.Repository.TeacherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -30,7 +29,4 @@ public class TeacherController {
         teacherRepository.save(teach);
         return "Teacher details added";
     }
-
-
-
 }
