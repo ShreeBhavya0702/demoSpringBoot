@@ -33,12 +33,12 @@ public class Teacher {
         this.firstName = firstName;
     }
 
-    public String getSecondName() {
+    public String getLastName() {
         return lastName;
     }
 
-    public void setSecondName(String secondName) {
-        this.lastName = secondName;
+    public void setLastName(String lastNameName) {
+        this.lastName = lastName;
     }
 
     public Long getId() {
